@@ -62,7 +62,7 @@ const App = () => {
 	return (
 		<div className="app">
 			<nav>
-				<h1>POSTS APP</h1>
+				<h1>MMT plus+ FREIGHT POSTS </h1>
 			</nav>
 			<div className="add-post-container">
 				<form onSubmit={handleSubmit}>
@@ -81,11 +81,11 @@ const App = () => {
 						value={body}
 						onChange={(e) => setBody(e.target.value)}
 					></textarea>
-					<button type="submit">Add Post</button>
+					<button type="submit">Add Freight</button>
 				</form>
 			</div>
 			<div className="posts-container">
-				<h2>All Posts 📫</h2>
+				<h2>All Freight 📫</h2>
 				{posts.map((post) => {
 					return (
 						<div className="post-card" key={post.id}>
